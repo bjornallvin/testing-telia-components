@@ -1,0 +1,13 @@
+{
+    "private": true,
+    "workspaces": {
+        "packages": [
+            "packages/gds-react",
+            "packages/gds-vue"
+        ]
+    },
+    "scripts": {
+        "start:react": "yarn workspace gds-react start",
+        "start:vue": "yarn workspace gds-vue start"
+    }
+}
